@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:9002", "http://localhost:5173"],
+    origin: ["http://localhost:9002", "http://localhost:5173","https://sts-inventory.onrender.com"],
     credentials: true,
   })
 );
